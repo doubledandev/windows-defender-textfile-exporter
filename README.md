@@ -71,7 +71,21 @@ Unix timestamp of the last update of the Spyware signatures database
 - `signatures_age`: Age of the Spyware signatures database
 - `signatures_version`: Version of the Spyware signatures database
 
+## `textfile_collector_win_script_last_run_timestamp`: gauge
+### Value
+Unix timestamp of the last update of the script itself
 
-# Todo
-- [ ] Place parameters in script to configure the output file
-- [ ] Check if the old windows metric can be enhanced and if it uses the right state Registry key
+## `textfile_collector_win_firewall_private_state`: gauge 
+### Value
+- `1`: enabled
+- `0`: disabled
+
+## `textfile_collector_win_firewall_domain_state`: gauge 
+### Value
+- `1`: enabled
+- `0`: disabled
+
+## `textfile_collector_win_firewall_public_state`: gauge 
+### Value
+- `1`: enabled
+- `0`: disabled
